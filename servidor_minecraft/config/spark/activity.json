@@ -1,0 +1,27 @@
+[
+  {
+    "user": {
+      "type": "other",
+      "name": "Console"
+    },
+    "time": 1752205584610,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WLfwqjTRTU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Adonis_MB",
+      "uniqueId": "0c47ee53-75ea-342c-8049-2d85cd2e7875"
+    },
+    "time": 1751649267002,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/p92VPKt3vK"
+    }
+  }
+]

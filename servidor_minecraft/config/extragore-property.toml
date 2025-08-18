@@ -1,0 +1,352 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "zombie_island:walker_3",
+    "zombie_island:walker_4",
+    "zombie_island:walker_1",
+    "zombie_island:walker_2",
+    "zombie_island:eat_courier",
+    "minecraft:trader_llama",
+    "gore:zombiewithoutarms",
+    "apocalypsenow:soldiers_02",
+    "minecraft:horse",
+    "zombie_island:firefighter_walker",
+    "minecraft:llama",
+    "zombie_extreme:goon",
+    "extinction:infected_police",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "apocalypsenow:rat",
+    "zombie_extreme:devestated",
+    "apocalypsenow:hunter",
+    "gore:zombie_without_head_and_arm",
+    "zombie_extreme:infected_military",
+    "gore:cutted_vertical_zombie",
+    "zombie_island:grenadier_walker",
+    "extinction:runner",
+    "zombie_extreme:divided",
+    "gore:husk_without_arms",
+    "minecraft:bee",
+    "mutantsbuff:invul",
+    "sona:sound_decoy",
+    "minecraft:illusioner",
+    "gore:hello_kid",
+    "minecraft:mooshroom",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "zombie_extreme:faceless",
+    "zombie_extreme:revived",
+    "gore:zombie_without_head",
+    "zombie_island:insect_swarm_walker",
+    "apocalypsenow:horde_2",
+    "apocalypsenow:horde_3",
+    "apocalypsenow:horde_4",
+    "apocalypsenow:horde_5",
+    "zombie_extreme:boomer",
+    "apocalypsenow:horde_1",
+    "extinction:soldier_clicker",
+    "minecraft:wandering_trader",
+    "extinction:patient_zero",
+    "extinction:patient_zero_i",
+    "mutantmonsters:mutant_zombie",
+    "gore:multiple_cuts_husk",
+    "extinction:infected_hazmat",
+    "mutantsbuff:shockwave",
+    "apocalypsenow:soldiers",
+    "zombie_island:shambler",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "minecraft:chicken",
+    "minecraft:zombie",
+    "gore:experiment_i",
+    "apocalypsenow:looter_3",
+    "gore:squitchgun_flame_fire",
+    "apocalypsenow:looter_4",
+    "extinction:mercenary",
+    "apocalypsenow:looter_5",
+    "zombie_island:hazmat_walker",
+    "apocalypsenow:looter_1",
+    "minecraft:hoglin",
+    "apocalypsenow:looter_2",
+    "gore:husk_without_legs_and_arm",
+    "apocalypsenow:walker_3",
+    "minecraft:polar_bear",
+    "apocalypsenow:walker_2",
+    "apocalypsenow:walker_5",
+    "apocalypsenow:walker_4",
+    "minecraft:zombified_piglin",
+    "apocalypsenow:walker_1",
+    "minecraft:turtle",
+    "apocalypsenow:walker_7",
+    "minecraft:sheep",
+    "apocalypsenow:walker_6",
+    "apocalypsenow:walker_9",
+    "apocalypsenow:walker_8",
+    "jeg:phantom_gunner",
+    "zombie_island:walker",
+    "zombie_extreme:assasin_black_ops",
+    "extinction:goon",
+    "minecraft:ravager",
+    "zombie_extreme:runner",
+    "gore:warden_death",
+    "zombie_more:tank_zombie",
+    "extinction:boomer",
+    "zombie_island:riot_gear_walker",
+    "gore:zombie_without_mouth_and_arms",
+    "extinction:infected_mutated",
+    "gore:husk_without_mouth_and_arm",
+    "minecraft:bat",
+    "apocalypsenow:runner_39",
+    "apocalypsenow:runner_38",
+    "apocalypsenow:runner_37",
+    "zombie_island:caustic_x_walker",
+    "zombie_island:runner",
+    "apocalypsenow:runner_36",
+    "apocalypsenow:runner_35",
+    "apocalypsenow:runner_34",
+    "apocalypsenow:crawler_3",
+    "apocalypsenow:survivor_10",
+    "apocalypsenow:crawler_2",
+    "apocalypsenow:crawler_4",
+    "apocalypsenow:crawler_1",
+    "gore:husk_without_legs",
+    "apocalypsenow:cockroach",
+    "extinction:stalker_ii",
+    "apocalypsenow:runner_49",
+    "apocalypsenow:runner_48",
+    "zombie_extreme:fetus",
+    "apocalypsenow:runner_43",
+    "apocalypsenow:runner_42",
+    "apocalypsenow:runner_41",
+    "apocalypsenow:runner_40",
+    "apocalypsenow:runner_47",
+    "gore:husk_without_mouth_and_arms",
+    "apocalypsenow:runner_46",
+    "gore:zombie_without_mouth",
+    "apocalypsenow:runner_45",
+    "zombie_extreme:zero_patient",
+    "apocalypsenow:runner_44",
+    "minecraft:cat",
+    "apocalypsenow:runner_50",
+    "minecraft:tropical_fish",
+    "jeg:ghoul",
+    "zombie_extreme:chainsaw",
+    "apocalypsenow:runner_54",
+    "apocalypsenow:runner_53",
+    "apocalypsenow:runner_52",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "apocalypsenow:runner_51",
+    "apocalypsenow:runner_57",
+    "zombie_extreme:crawler",
+    "apocalypsenow:runner_56",
+    "apocalypsenow:runner_55",
+    "gore:dismembered_spider_1",
+    "gore:dismembered_spider_2",
+    "zombie_extreme:demolisher",
+    "minecraft:giant",
+    "jeg:terror_phantom",
+    "gore:multiple_cuts_zombie",
+    "zombie_extreme:infected",
+    "zombie_extreme:parasite",
+    "gore:dismembered_spider_3",
+    "zombie_extreme:infected_juggernaut",
+    "minecraft:husk",
+    "extinction:infected_riot_gear",
+    "gore:zombie_without_mouth_and_arm",
+    "minecraft:donkey",
+    "zombie_more:explosive_zombie",
+    "mutantmonsters:mutant_skeleton",
+    "gore:husk_without_head_and_arm",
+    "minecraft:piglin_brute",
+    "extinction:traveler",
+    "mutantsbuff:shockwaves",
+    "apocalypsenow:military_medic",
+    "gore:horizontal_cutted_spider",
+    "extinction:soldier",
+    "zombie_island:shocking_walker",
+    "zombie_extreme:infected_police",
+    "minecraft:parrot",
+    "zombie_extreme:inflated",
+    "jeg:boo",
+    "zombie_island:incendiary_walker",
+    "minecraft:frog",
+    "zombie_extreme:clicker",
+    "zombie_more:cursed_zombie",
+    "mutantmonsters:mutant_creeper",
+    "zombie_island:runner_2",
+    "zombie_island:runner_1",
+    "gore:zombie_without_legs",
+    "zombie_extreme:explosive_infected",
+    "gore:wither_skeleton_condemned",
+    "minecraft:mule",
+    "zombie_island:shambler_4",
+    "zombie_island:shambler_3",
+    "minecraft:vindicator",
+    "zombie_island:burning_walker",
+    "zombie_island:runner_4",
+    "zombie_island:runner_3",
+    "minecraft:evoker",
+    "zombie_island:shambler_2",
+    "zombie_island:shambler_1",
+    "zombie_extreme:infected_hazmat",
+    "zombie_more:boomer_zombie",
+    "zombie_extreme:ram",
+    "gore:experiment_iv",
+    "apocalypsenow:walker_29",
+    "apocalypsenow:walker_28",
+    "apocalypsenow:walker_27",
+    "gore:zombie_without_legs_and_arm",
+    "apocalypsenow:walker_26",
+    "apocalypsenow:walker_25",
+    "apocalypsenow:walker_24",
+    "apocalypsenow:walker_23",
+    "apocalypsenow:walker_22",
+    "gore:experiment_iii",
+    "apocalypsenow:walker_21",
+    "apocalypsenow:walker_20",
+    "gore:flesh_demon",
+    "minecraft:pig",
+    "extinction:infected_bear",
+    "apocalypsenow:walker_33",
+    "apocalypsenow:walker_32",
+    "apocalypsenow:walker_31",
+    "apocalypsenow:walker_30",
+    "minecraft:goat",
+    "mutantmonsters:mutant_enderman",
+    "minecraft:cod",
+    "zombie_extreme:rat_king",
+    "gore:experiment_iv_i",
+    "mutantmonsters:spider_pig",
+    "extinction:hunter",
+    "gore:hlvrek",
+    "minecraft:cow",
+    "gore:zombie_on_burn",
+    "gravestone:player_ghost",
+    "apocalypsenow:survivor_5",
+    "apocalypsenow:survivor_4",
+    "apocalypsenow:survivor_3",
+    "apocalypsenow:survivor_2",
+    "apocalypsenow:survivor_1",
+    "minecraft:salmon",
+    "apocalypsenow:walker_19",
+    "apocalypsenow:walker_18",
+    "apocalypsenow:walker_17",
+    "apocalypsenow:survivor_9",
+    "apocalypsenow:walker_16",
+    "gore:vertical_cutted_spider",
+    "apocalypsenow:survivor_8",
+    "apocalypsenow:walker_15",
+    "apocalypsenow:survivor_7",
+    "apocalypsenow:walker_14",
+    "extinction:parasite",
+    "apocalypsenow:survivor_6",
+    "apocalypsenow:walker_13",
+    "apocalypsenow:walker_12",
+    "apocalypsenow:walker_11",
+    "apocalypsenow:walker_10",
+    "extinction:stalker",
+    "gore:cutted_vertical_husk",
+    "minecraft:rabbit",
+    "tacz_npc:bandit",
+    "minecraft:pillager",
+    "minecraft:zoglin",
+    "gore:husk_without_head",
+    "gore:the_executioner",
+    "mutantsbuff:explosion",
+    "zombie_extreme:night_hunter",
+    "mutantsbuff:stable_explosion",
+    "extinction:fallen_survivor",
+    "mutantmonsters:endersoul_clone",
+    "minecraft:piglin",
+    "extinction:infected_soldier",
+    "apocalypsenow:military_02",
+    "apocalypsenow:military_01",
+    "gore:cutted_horizonal_zombie",
+    "minecraft:sniffer",
+    "gore:husk_without_mouth",
+    "minecraft:zombie_horse",
+    "gore:cutted_horizontal_husk",
+    "minecraft:camel",
+    "zombie_more:crawler_zombie",
+    "gore:old_wither_skeleton_condemned",
+    "gore:without_head_spider",
+    "apocalypsenow:cannibal",
+    "zombie_extreme:military",
+    "gore:akeriskull_entity",
+    "minecraft:ocelot",
+    "minecraft:wolf",
+    "extinction:runner_ii"
+]

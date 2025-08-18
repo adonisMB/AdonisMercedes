@@ -1,0 +1,70 @@
+{
+  // Reglas generales:
+  // - Límites: 0 -> no spawn, -1 -> ilimitado, rango -> 0-10000 (mundo), 0-1000 (chunk)
+  // - removal_type: "despawn" -> silencioso, "kill" -> suelta loot
+  // - Prioridad de límite de chunk: mob (ej. minecraft:cow) -> categoría (ej. minecraft:creatures) -> namespace (ej. minecraft:*) -> default
+  // - Prioridad de límite de mundo: mob (ej. minecraft:cow) -> total
+
+  // Despawn de vainilla:
+  // - mode: "vanilla" -> reglas por defecto, "custom" -> usar min/max_distance, "disabled" -> mobs persistentes
+  // - min_distance, max_distance: rango de despawn (bloques, para "custom")
+  "vanilla_despawn": {
+    "mode": "vanilla", // Mantener en vanilla para el comportamiento por defecto
+    "min_distance": 32.0,
+    "max_distance": 128.0
+  },
+
+  // Límites del mundo:
+  // - enabled: true/false
+  // - total: máximo de mobs en el mundo (-1 -> ilimitado)
+  // - removal_type: tipo de eliminación de mobs en exceso
+  // - mobs: límites por mob
+  "world_limits": {
+    "enabled": true, // Habilitar límites globales
+    "total": 1500, // Reducido de 500 para permitir más, pero aún limitado. Ajusta según sea necesario.
+    "removal_type": "despawn", // Desaparecer mobs silenciosamente
+    "mobs": {
+      "minecraft:cow": 50, // Límite de vacas en el mundo
+      "minecraft:pig": 50, // Límite de cerdos en el mundo
+      "minecraft:chicken": 50, // Límite de gallinas en el mundo
+      "minecraft:sheep": 50, // Límite de ovejas en el mundo
+      "minecraft:zombie": 75, // Límite de zombies en el mundo
+      "minecraft:skeleton": 75, // Límite de esqueletos en el mundo
+      "minecraft:spider": 75, // Límite de arañas en el mundo
+      "minecraft:creeper": 75, // Límite de creepers en el mundo
+      "minecraft:villager": 50, // Límite de aldeanos para evitar sobrepoblación
+      "minecraft:item": 200, // Límite de ítems en el suelo (muy importante para el lag)
+      "minecraft:experience_orb": 100 // Límite de orbes de experiencia
+      // Puedes añadir más mobs específicos aquí si identificas otros que causen lag
+    }
+  },
+
+  // Límites de chunk:
+  // - enabled: true/false
+  // - default.limit: límite de mobs por chunk por defecto (-1 -> ilimitado)
+  // - removal_type: tipo de eliminación de mobs en exceso
+  // - mobs: límites por mob, categoría o namespace
+  "chunk_limits": {
+    "enabled": true, // Habilitar límites por chunk
+    "removal_type": "despawn", // Desaparecer mobs silenciosamente
+    "default": {
+      "limit": 15 // Límite por defecto de mobs por chunk. Ajusta si es necesario.
+    },
+    "mobs": {
+      "minecraft:cow": 5, // Límite de vacas por chunk
+      "minecraft:pig": 5, // Límite de cerdos por chunk
+      "minecraft:chicken": 5, // Límite de gallinas por chunk
+      "minecraft:sheep": 5, // Límite de ovejas por chunk
+      "minecraft:zombie": 8, // Límite de zombies por chunk
+      "minecraft:skeleton": 8, // Límite de esqueletos por chunk
+      "minecraft:spider": 8, // Límite de arañas por chunk
+      "minecraft:creeper": 8, // Límite de creepers por chunk
+      "minecraft:villager": 5, // Límite de aldeanos por chunk
+      "minecraft:item": 10, // Límite de ítems en el suelo por chunk
+      "minecraft:experience_orb": 10, // Límite de orbes de experiencia por chunk
+      "minecraft:creatures": 10, // Límite para la categoría de criaturas (animales)
+      "minecraft:monsters": 12, // Límite para la categoría de monstruos
+      "minecraft:*": 8 // Límite para cualquier otro mob de Minecraft no especificado
+    }
+  }
+}
