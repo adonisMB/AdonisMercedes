@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-08-18 19:50:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2025-08-18 19:45:32 +0000"
@@ -209,6 +215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-08-18 19:52:35 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/lime_stool": {
     "criteria": {
       "has_white_wool": "2025-08-18 19:42:57 +0000"
@@ -242,6 +254,12 @@
   "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence": {
     "criteria": {
       "has_stick": "2025-08-18 19:39:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "pumpkin_patch": "2025-08-18 19:51:54 +0000"
     },
     "done": true
   },
@@ -1003,6 +1021,18 @@
     },
     "done": true
   },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-08-18 19:55:47 +0000"
+    },
+    "done": false
+  },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_the_recipe": "2025-08-18 19:58:04 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/magenta_lamp": {
     "criteria": {
       "has_white_wool": "2025-08-18 19:42:57 +0000"
@@ -1111,6 +1141,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+    "criteria": {
+      "has_bread": "2025-08-18 19:58:06 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-08-18 19:55:47 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/blue_stool": {
     "criteria": {
       "has_white_wool": "2025-08-18 19:42:57 +0000"
@@ -1190,6 +1232,13 @@
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "seasonal_forest": "2025-08-18 19:53:24 +0000",
+      "pumpkin_patch": "2025-08-18 19:51:54 +0000"
+    },
+    "done": false
+  },
   "corail_dt:tutorial/root": {
     "criteria": {
       "auto": "2025-08-18 19:28:59 +0000"
@@ -1241,6 +1290,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-08-18 19:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-08-18 19:52:35 +0000"
     },
     "done": true
   },
@@ -1481,7 +1536,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-08-18 19:28:59 +0000",
-      "minecraft:cold_ocean": "2025-08-18 19:45:33 +0000"
+      "minecraft:river": "2025-08-18 19:53:17 +0000",
+      "minecraft:cold_ocean": "2025-08-18 19:45:33 +0000",
+      "minecraft:forest": "2025-08-18 19:51:15 +0000"
     },
     "done": false
   },
