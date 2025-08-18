@@ -1333,6 +1333,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-18 20:43:45 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/cyan_seat": {
     "criteria": {
       "has_wool": "2025-08-18 19:42:57 +0000"
@@ -1824,6 +1830,12 @@
   "refurbished_furniture:recipes/misc/constructing/purple_stool": {
     "criteria": {
       "has_white_wool": "2025-08-18 19:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-18 20:43:45 +0000"
     },
     "done": true
   },
@@ -3092,6 +3104,12 @@
   "refurbished_furniture:recipes/misc/constructing/doorbell": {
     "criteria": {
       "has_iron_ingot": "2025-08-18 20:12:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-18 20:43:45 +0000"
     },
     "done": true
   },
