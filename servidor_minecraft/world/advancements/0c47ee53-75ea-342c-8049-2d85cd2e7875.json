@@ -1044,6 +1044,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/television_remote": {
+    "criteria": {
+      "has_redstone_lamp": "2025-08-18 20:52:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-08-18 19:40:56 +0000"
@@ -1733,6 +1739,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "sweet_berries": "2025-08-18 19:44:11 +0000",
+      "apple": "2025-08-18 20:57:33 +0000",
       "cookie": "2025-08-18 20:00:10 +0000"
     },
     "done": false
