@@ -1,0 +1,106 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:main/root": {
+    "criteria": {
+      "main": "2025-08-18 19:28:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-18 19:28:57 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/misc/medikit": {
+    "criteria": {
+      "has_bandage": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "corail_dt:recipes/essence": {
+    "criteria": {
+      "requirement_1": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2025-08-18 19:28:58 +0000",
+      "inv_changed-diamond": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "thingamajigs:recipes/redstone/thingamajig_state_cell": {
+    "criteria": {
+      "has_redstone": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "zombiekit:zombie_kit": {
+    "criteria": {
+      "zombie_kit": "2025-08-18 19:28:57 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "corail_dt:tutorial/root": {
+    "criteria": {
+      "auto": "2025-08-18 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-08-18 19:28:57 +0000"
+    },
+    "done": true
+  },
+  "zombiekit:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-08-18 19:28:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-08-18 19:28:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2025-08-18 19:28:59 +0000"
+    },
+    "done": false
+  },
+  "thingamajigs:get_book": {
+    "criteria": {
+      "tick": "2025-08-18 19:28:57 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
