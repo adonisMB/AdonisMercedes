@@ -102,6 +102,7 @@
       "minecraft:river": "2025-08-18 19:53:17 +0000",
       "minecraft:cold_ocean": "2025-08-18 19:45:33 +0000",
       "minecraft:forest": "2025-08-18 19:51:15 +0000",
+      "minecraft:meadow": "2025-09-02 00:23:10 +0000",
       "minecraft:plains": "2025-08-18 20:12:18 +0000"
     },
     "done": false
@@ -36314,9 +36315,27 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-09-02 00:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-09-02 00:28:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/safely_harvest_honey": {
     "criteria": {
       "safely_harvest_honey": "2025-09-02 00:14:05 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/purple_placard_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-09-02 00:27:43 +0000"
     },
     "done": true
   },
